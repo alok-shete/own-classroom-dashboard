@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/util.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-purple border-right" id="sidebar-wrapper">
+        <div class="list-group">
+          <!-- sidebar logo -->
+          <div class="bg-light sidebar-logo sidebar-logo-width">
+            <img
+              src="https://4.bp.blogspot.com/-gHJR9huX1gA/XMFjvFn4F_I/AAAAAAAAACQ/RztjOZh4mGkSKVglXRJTr3qQF6DCvF1IwCK4BGAYYCw/s1600/1556177756466.png"
+              class="img-fluid"
+              alt="..."
+            />
+          </div>
+          <!-- side bar logo end -->
+          <!-- sidebar profile -->
+          <div class="text-center sidebar-profile">
+            <img
+              src="https://1.bp.blogspot.com/-riffAYxXLJc/XPpjM6FmcUI/AAAAAAAAAXQ/Ld-SrFfLBAMv4FmRzgFyhfZ8vu4WktcJACEwYBhgL/s320/1542114335598.jpg"
+              class="img-thumbnail p-0 wrap-pic-cir"
+              alt="..."
+            />
+          </div>
+          <!-- sidebar profile end -->
+          <!-- student name -->
+          <div class="text-center">
+            <span class="text-white"><b>Alok Shete</b></span>
+            <p class="fs-12 text-white hov-pointer">
+              <u><b>View Profile</b></u>
+            </p>
+          </div>
+          <!-- student name end -->
+
+          <!-- side nav item -->
+
+          <nav class="nav flex-column mt-3 text-center">
+            <a class="text-white nav-link" href="#"><b>Teaching Classes</b></a>
+            <a class="text-white nav-link" href="#"><b>Enrolled Classes</b></a>
+            <a class="text-white nav-link" href="#"><b>Assignments</b></a>
+          </nav>
+
+          <!-- side nav item end -->
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <!-- top nav bar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <a class="navbar-brand navbar-logo" href="#">
+            <img
+              src="https://4.bp.blogspot.com/-gHJR9huX1gA/XMFjvFn4F_I/AAAAAAAAACQ/RztjOZh4mGkSKVglXRJTr3qQF6DCvF1IwCK4BGAYYCw/s1600/1556177756466.png"
+              alt=""
+              height="35"
+              class="d-inline-block align-top"
+            />
+          </a>
+          <b class="sidebar-logo">Dashboard</b>
+          <button
+            style="padding: 1px"
+            class="navbar-toggler mr-3"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto pr-3">
+              <li class="nav-item pr-3">
+                <a class="nav-link" href="#">Notification</a>
+              </li>
+              <li class="nav-item pr-3">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link bg-dark text-white text-logo" href="#">
+                  A
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- top nav bar end -->
+        <div class="toggle-div text-center p-1">
+          <div class="close-menu">
+            <b>Dashboard</b>
+          </div>
+          <div id="menu-toggle" class="bg-purple arrow-left text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-filter-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- page content -->
+        <div class="close-menu" id="main">
+          <div class="bg-danger">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- page content -->
+      </div>
+      <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper --
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+
+      $(".close-menu").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").removeClass("toggled");
+      });
+
+      // function change_tab(tab_name) {
+      //   console.log(tab_name + " clicked");
+      //   $(".all-tabs").fadeOut("slow");
+      //   $("#" + tab_name).fadeIn("slow");
+      // }
+    </script>
+  </body>
+</html>
