@@ -35,7 +35,7 @@
 }
 
 .sidebar-logo {
-  padding: 0 27.5px 0 27.5px;
+  padding: 0 24.9px 0 24.9px;
   display: none;
 }
 
@@ -59,6 +59,11 @@
   border-radius: 50%;
   font-size: 17px;
   font-weight: bold;
+  border: 1px red;
+}
+
+.dropdown-toggle::after {
+  content: none;
 }
 
 /* toggle-div*/
@@ -119,3 +124,46 @@
 }
 
 /* classes card */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent !important;
+}
+
+.card-head {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: #ffe259; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-subject {
+  min-height: 80px;
+  font-weight: 550;
+}
+
+.card-body {
+  position: relative;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  min-height: 100px;
+}
+
+.card-logo {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid gray;
+}
