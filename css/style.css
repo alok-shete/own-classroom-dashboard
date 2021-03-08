@@ -125,6 +125,10 @@
 
 /* classes card */
 
+.col {
+  min-width: 324px;
+}
+
 .card {
   border: none;
   border-radius: 10px;
